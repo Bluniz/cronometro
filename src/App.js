@@ -1,7 +1,8 @@
 import "./styles/global.css";
+import Cronometer from "./pages/Cronometer/index";
 
 function App() {
-  return <div>Olá</div>;
+  return <Cronometer />;
 }
 
 export default App;
