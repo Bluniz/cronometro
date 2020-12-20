@@ -9,3 +9,12 @@
   justify-content: center;
   margin: 10px;
 }
+
+.time-container h1 {
+  font-weight: 400;
+  
+}
+
+.time-container h2 {
+  font-weight: 300;
+}

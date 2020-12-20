@@ -1,12 +1,12 @@
-:root{
+:root {
   --background: #ece4b7;
   --header: #d36135;
   --text: #02020b;
 }
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
