@@ -1,0 +1,15 @@
+.button {
+  border: 1px solid var(--header);
+  background: transparent;
+  width: 100px;
+  height: 50px;
+  padding: 5px 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background: var(--header);
+  border-color: black;
+}

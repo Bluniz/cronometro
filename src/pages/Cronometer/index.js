@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./style.css";
 import Counter from "../../components/Counter/index";
+import Button from "../../components/Button/index";
 
 const cronometerModel = {
   hour: 0,
@@ -82,12 +83,12 @@ const Cronometer = () => {
       />
 
       {start ? (
-        <button onClick={pause}>Pause</button>
+        <Button onClick={pause}>Pause</Button>
       ) : (
-        <button onClick={init}>Start</button>
+        <Button onClick={init}>Start</Button>
       )}
 
-      <button onClick={stop}>Stop</button>
+      <Button onClick={stop}>Stop</Button>
 
       {stopedTimer.map((item, index) => (
         <p
