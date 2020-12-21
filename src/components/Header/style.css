@@ -1,0 +1,42 @@
+.header {
+  width: 100vw;
+  height: 10vh;
+  background: var(--header);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  opacity: 0.5;
+}
+
+.menu-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.clock {
+  margin-right: 30px;
+}
+
+.clock span {
+  font-size: large;
+}
+
+.selected {
+  border-bottom: 5px solid black;
+}
