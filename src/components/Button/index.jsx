@@ -4,6 +4,7 @@ import PlayIcon from "../../assets/play.svg";
 import PauseIcon from "../../assets/pause.svg";
 import StopIcon from "../../assets/stop.svg";
 import ParcialIcon from "../../assets/crono.svg";
+import SaveIcon from "../../assets/save.svg";
 
 
 const Button = ({ onClick, media, disabled }) => (
@@ -12,6 +13,7 @@ const Button = ({ onClick, media, disabled }) => (
     {media === "pause" && <img src={PauseIcon} alt="play_icon" />}
     {media === "stop" && <img src={StopIcon} alt="play_icon" />}
     {media === "parcial" && <img src={ParcialIcon} alt="play_icon" />}
+    {media === "save" && <img src={SaveIcon} alt="play_icon" />}
   </button>
 );
 

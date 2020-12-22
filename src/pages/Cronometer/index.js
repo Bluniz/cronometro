@@ -24,6 +24,7 @@ const Cronometer = () => {
         minutes={clock.minutes}
         seconds={clock.seconds}
         miliseconds={clock.miliseconds}
+        type="counter"
       />
 
       <div className="button-group">

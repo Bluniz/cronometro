@@ -1,0 +1,98 @@
+.container-timer {
+  background: var(--background);
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.selected {
+  background: var(--header);
+}
+
+.add-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--header);
+  padding: 20px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  opacity: 0.5;
+}
+
+.timers-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--header);
+  padding: 20px;
+  font-weight: bold;
+}
+
+.modal {
+  position: absolute;
+  width: 40%;
+  height: 50%;
+  background: var(--header);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.close {
+  display: none;
+}
+
+.input-time {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 20%;
+  height: 10%;
+
+  outline: none;
+}
+
+.modal button {
+  background: none;
+  margin-top: 10px;
+  width: 20%;
+  height: 10%;
+  border: 1px solid black;
+  font-weight: bold;
+  transition: all 0.2s;
+  outline: none;
+  cursor: pointer;
+}
+
+.modal button:hover {
+  background: var(--background);
+}
+
+.timer-container {
+  width: 50vw;
+  max-height: 50vh;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid var(--header);
+  cursor: pointer;
+}
